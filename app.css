@@ -65,6 +65,18 @@ body {
   cursor: pointer;
 }
 
+@keyframes movieHover {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+.img-fluid:hover {
+  animation: movieHover 1s forwards 100ms;
+}
+
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

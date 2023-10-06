@@ -95,4 +95,18 @@ body {
   cursor: pointer;
 }
 
+@keyframes movieHover {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.img-fluid:hover {
+  animation: movieHover 1s forwards 100ms;
+}
+
 @import "bootstrap-container/scss/bootstrap";
