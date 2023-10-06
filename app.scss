@@ -20,6 +20,7 @@ $theme-colors: (
   "grey": #7f7f7f,
   "lightgrey": #a39d9d,
   "darkgrey": #333333,
+  "link": #4075c7,
 );
 
 // $spacers: (
@@ -75,6 +76,18 @@ body {
   }
   @media screen and (min-width: 992px) {
     width: 10% !important;
+  }
+}
+#logo-link-settings {
+  width: 40% !important;
+  @media screen and (min-width: 576px) {
+    width: 30% !important;
+  }
+  @media screen and (min-width: 768px) {
+    width: 15% !important;
+  }
+  @media screen and (min-width: 992px) {
+    width: 8% !important;
   }
 }
 
